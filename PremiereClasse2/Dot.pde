@@ -1,6 +1,7 @@
 class Dot{
 int localX,localY; //Valeurs de X et Y dans l'objet
 void  setX(int valeurX){
+  //Contrôles de validité
   if(valeurX >= width) {
       localX=width-1;
     }
